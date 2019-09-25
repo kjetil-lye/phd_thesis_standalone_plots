@@ -1053,7 +1053,7 @@ table {%
   rotate=0.0,
   align=right
 ]{By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: 3a6bccd12e5cc51398e6a86bac6231a436caf912
+Commit: 1ddbe1297e2e4c48b303c03c9405d2f505d6d04f
 Repo: git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
 Hostname: gpusam};
 \node at (axis cs:0.2,0.93)[
@@ -1061,7 +1061,7 @@ Hostname: gpusam};
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{@3a6b};
+]{@1ddb};
 \node at (axis cs:0.95,0.01)[
   scale=0.15,
   anchor=south east,
@@ -1069,7 +1069,7 @@ Hostname: gpusam};
   rotate=0.0,
   align=right
 ]{By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: 3a6bccd12e5cc51398e6a86bac6231a436caf912
+Commit: 1ddbe1297e2e4c48b303c03c9405d2f505d6d04f
 Repo: git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
 Hostname: gpusam};
 \end{axis}
@@ -1083,14 +1083,14 @@ Hostname: gpusam};
 %% script name: Perturbation.ipynb
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : 3a6bccd12e5cc51398e6a86bac6231a436caf912
-%% GIT git_repo_modified : True
+%% GIT git_commit : 1ddbe1297e2e4c48b303c03c9405d2f505d6d04f
+%% GIT git_repo_modified : False
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : 3a6b
+%% GIT git_short_commit : 1ddb
 %% working_directory : /scratch/userdata/klye/projects/phd_thesis_standalone_plots/examples/perturbation
 %% hostname : gpusam
-%% generated_on_date : 2019-09-25 15:12:04.127681
+%% generated_on_date : 2019-09-25 15:12:23.929235
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /run/user/138972/jupyter/kernel-1c214d4a-7a6c-4819-a1fa-1d44269a40d6.json
@@ -2131,7 +2131,7 @@ Hostname: gpusam};
 %%     [function: savePlot, line: 304, file: ../../python/plot_info.py]
 %%     [function: savePlot, line: 326, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 338, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 20, file: <ipython-input-3-efaa82453ddf>]
+%%     [function: <module>, line: 20, file: <ipython-input-2-efaa82453ddf>]
 %%     [function: run_code, line: 3267, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3191, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3020, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
@@ -2146,6 +2146,10 @@ Hostname: gpusam};
 %%     [function: dispatch_shell, line: 272, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: wrapper, line: 315, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
 %%     [function: process_one, line: 365, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
+%%     [function: run, line: 1113, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
+%%     [function: __init__, line: 1046, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
+%%     [function: wrapper, line: 335, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
+%%     [function: dispatch_queue, line: 378, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: run, line: 1113, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
 %%     [function: inner, line: 1199, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
 %%     [function: null_wrapper, line: 276, file: /usr/lib64/python3.7/site-packages/tornado/stack_context.py]
