@@ -1090,7 +1090,7 @@ Hostname: gpusam};
 %% GIT git_short_commit : 3a6b
 %% working_directory : /scratch/userdata/klye/projects/phd_thesis_standalone_plots/examples/perturbation
 %% hostname : gpusam
-%% generated_on_date : 2019-09-25 14:56:24.330073
+%% generated_on_date : 2019-09-25 15:12:04.127681
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /run/user/138972/jupyter/kernel-1c214d4a-7a6c-4819-a1fa-1d44269a40d6.json
@@ -2131,7 +2131,7 @@ Hostname: gpusam};
 %%     [function: savePlot, line: 304, file: ../../python/plot_info.py]
 %%     [function: savePlot, line: 326, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 338, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 20, file: <ipython-input-2-c0c88e075d8a>]
+%%     [function: <module>, line: 20, file: <ipython-input-3-efaa82453ddf>]
 %%     [function: run_code, line: 3267, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3191, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3020, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
@@ -2146,10 +2146,6 @@ Hostname: gpusam};
 %%     [function: dispatch_shell, line: 272, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: wrapper, line: 315, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
 %%     [function: process_one, line: 365, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
-%%     [function: run, line: 1113, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
-%%     [function: __init__, line: 1046, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
-%%     [function: wrapper, line: 335, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
-%%     [function: dispatch_queue, line: 378, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: run, line: 1113, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
 %%     [function: inner, line: 1199, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
 %%     [function: null_wrapper, line: 276, file: /usr/lib64/python3.7/site-packages/tornado/stack_context.py]
