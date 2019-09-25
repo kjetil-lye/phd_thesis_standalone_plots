@@ -1052,7 +1052,7 @@ table {%
   rotate=0.0,
   align=right
 ]{By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: c15b51d2269ee664cece49d62f1bb56adc56de44
+Commit: 3a6bccd12e5cc51398e6a86bac6231a436caf912
 Repo: git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
 Hostname: gpusam};
 \node at (axis cs:0.2,0.93)[
@@ -1060,7 +1060,7 @@ Hostname: gpusam};
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{@c15b};
+]{@3a6b};
 \end{axis}
 
 \end{tikzpicture}
@@ -1069,17 +1069,17 @@ Hostname: gpusam};
 %%%%%%%%%%%%%TITLE%%%%%%%%%%%%%%%%%
 %% $I_{10}(a,b,x)$ for $a_k=\sin(10\pi (k-1)/{9}+0.13), b_k=\sin(10\pi (k-1)/{9}+0.9)$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% script name: /usr/lib/python3.7/site-packages/ipykernel_launcher.py
+%% script name: Perturbation.ipynb
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : c15b51d2269ee664cece49d62f1bb56adc56de44
+%% GIT git_commit : 3a6bccd12e5cc51398e6a86bac6231a436caf912
 %% GIT git_repo_modified : True
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : c15b
+%% GIT git_short_commit : 3a6b
 %% working_directory : /scratch/userdata/klye/projects/phd_thesis_standalone_plots/examples/perturbation
 %% hostname : gpusam
-%% generated_on_date : 2019-09-25 14:52:40.024910
+%% generated_on_date : 2019-09-25 14:56:23.562430
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /run/user/138972/jupyter/kernel-1c214d4a-7a6c-4819-a1fa-1d44269a40d6.json
@@ -2099,27 +2099,10 @@ Hostname: gpusam};
 %%     git.index.util: Unknown (/usr/lib/python3.7/site-packages/git/index/util.py)
 %%     git.remote: Unknown (/usr/lib/python3.7/site-packages/git/remote.py)
 %%     git.repo.fun: Unknown (/usr/lib/python3.7/site-packages/git/repo/fun.py)
-%%     PIL.BmpImagePlugin: 0.7 (/usr/lib64/python3.7/site-packages/PIL/BmpImagePlugin.py)
-%%     PIL.ImageFile: Unknown (/usr/lib64/python3.7/site-packages/PIL/ImageFile.py)
-%%     PIL.ImagePalette: Unknown (/usr/lib64/python3.7/site-packages/PIL/ImagePalette.py)
-%%     PIL.ImageColor: Unknown (/usr/lib64/python3.7/site-packages/PIL/ImageColor.py)
-%%     PIL.GimpPaletteFile: Unknown (/usr/lib64/python3.7/site-packages/PIL/GimpPaletteFile.py)
-%%     PIL.GimpGradientFile: Unknown (/usr/lib64/python3.7/site-packages/PIL/GimpGradientFile.py)
-%%     PIL.PaletteFile: Unknown (/usr/lib64/python3.7/site-packages/PIL/PaletteFile.py)
-%%     PIL.GifImagePlugin: 0.9 (/usr/lib64/python3.7/site-packages/PIL/GifImagePlugin.py)
-%%     PIL.ImageChops: Unknown (/usr/lib64/python3.7/site-packages/PIL/ImageChops.py)
-%%     PIL.ImageSequence: Unknown (/usr/lib64/python3.7/site-packages/PIL/ImageSequence.py)
-%%     PIL.JpegImagePlugin: 0.6 (/usr/lib64/python3.7/site-packages/PIL/JpegImagePlugin.py)
-%%     PIL.TiffImagePlugin: 1.3.5 (/usr/lib64/python3.7/site-packages/PIL/TiffImagePlugin.py)
-%%     PIL.TiffTags: Unknown (/usr/lib64/python3.7/site-packages/PIL/TiffTags.py)
-%%     fractions: Unknown (/usr/lib64/python3.7/fractions.py)
-%%     PIL.JpegPresets: Unknown (/usr/lib64/python3.7/site-packages/PIL/JpegPresets.py)
-%%     PIL.PpmImagePlugin: 0.2 (/usr/lib64/python3.7/site-packages/PIL/PpmImagePlugin.py)
-%%     PIL.PngImagePlugin: 0.9 (/usr/lib64/python3.7/site-packages/PIL/PngImagePlugin.py)
 %% stacktrace:
 %%     [function: savePlot, line: 304, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 338, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 20, file: <ipython-input-29-c0c88e075d8a>]
+%%     [function: <module>, line: 20, file: <ipython-input-2-c0c88e075d8a>]
 %%     [function: run_code, line: 3267, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3191, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3020, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
@@ -2134,6 +2117,10 @@ Hostname: gpusam};
 %%     [function: dispatch_shell, line: 272, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: wrapper, line: 315, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
 %%     [function: process_one, line: 365, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
+%%     [function: run, line: 1113, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
+%%     [function: __init__, line: 1046, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
+%%     [function: wrapper, line: 335, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
+%%     [function: dispatch_queue, line: 378, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: run, line: 1113, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
 %%     [function: inner, line: 1199, file: /usr/lib64/python3.7/site-packages/tornado/gen.py]
 %%     [function: null_wrapper, line: 276, file: /usr/lib64/python3.7/site-packages/tornado/stack_context.py]
