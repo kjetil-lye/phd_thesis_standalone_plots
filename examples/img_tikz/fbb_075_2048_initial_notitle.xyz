@@ -2087,7 +2087,7 @@ table [row sep=\\]{%
   rotate=0.0,
   align=right
 ]{ By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: de39b08d82a9b9bee275c23e3a49e5a6b646ede4
+Commit: 3f3b19e101494b95d65883b9e678313aa544685e
 Repo: git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
 Hostname: lyelaptop};
 \node at (axis cs:0.2,0.93)[
@@ -2095,7 +2095,7 @@ Hostname: lyelaptop};
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{ @de39};
+]{ @3f3b};
 \node at (axis cs:0.95,0.01)[
   scale=0.15,
   anchor=south east,
@@ -2103,7 +2103,7 @@ Hostname: lyelaptop};
   rotate=0.0,
   align=right
 ]{ By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: de39b08d82a9b9bee275c23e3a49e5a6b646ede4
+Commit: 3f3b19e101494b95d65883b9e678313aa544685e
 Repo: git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
 Hostname: lyelaptop};
 \end{axis}
@@ -2117,14 +2117,14 @@ Hostname: lyelaptop};
 %% script name: /usr/lib/python3.7/site-packages/ipykernel_launcher.py
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : de39b08d82a9b9bee275c23e3a49e5a6b646ede4
+%% GIT git_commit : 3f3b19e101494b95d65883b9e678313aa544685e
 %% GIT git_repo_modified : False
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : de39
+%% GIT git_short_commit : 3f3b
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/fbb
 %% hostname : lyelaptop
-%% generated_on_date : 2019-10-07 15:11:20.482986
+%% generated_on_date : 2019-10-07 15:53:39.862376
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-5d2c364e-02ae-437c-938c-923f1cf2c5e2.json

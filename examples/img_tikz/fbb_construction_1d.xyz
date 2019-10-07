@@ -2381,7 +2381,7 @@ table [row sep=\\]{%
   rotate=0.0,
   align=right
 ]{ By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: de39b08d82a9b9bee275c23e3a49e5a6b646ede4
+Commit: 3f3b19e101494b95d65883b9e678313aa544685e
 Repo: git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
 Hostname: lyelaptop};
 \node at (axis cs:0.2,0.93)[
@@ -2389,7 +2389,7 @@ Hostname: lyelaptop};
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{ @de39};
+]{ @3f3b};
 \end{groupplot}
 
 \end{tikzpicture}
@@ -2400,14 +2400,14 @@ Hostname: lyelaptop};
 %% script name: /usr/lib/python3.7/site-packages/ipykernel_launcher.py
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : de39b08d82a9b9bee275c23e3a49e5a6b646ede4
+%% GIT git_commit : 3f3b19e101494b95d65883b9e678313aa544685e
 %% GIT git_repo_modified : False
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : de39
+%% GIT git_short_commit : 3f3b
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/fbb
 %% hostname : lyelaptop
-%% generated_on_date : 2019-10-07 15:52:22.608311
+%% generated_on_date : 2019-10-07 15:53:57.764186
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-5d2c364e-02ae-437c-938c-923f1cf2c5e2.json
@@ -3507,7 +3507,7 @@ Hostname: lyelaptop};
 %% stacktrace:
 %%     [function: savePlot, line: 304, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 338, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 51, file: <ipython-input-15-7b566ad4eb8c>]
+%%     [function: <module>, line: 51, file: <ipython-input-4-7b566ad4eb8c>]
 %%     [function: run_code, line: 3325, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3248, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3057, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
@@ -3522,6 +3522,10 @@ Hostname: lyelaptop};
 %%     [function: dispatch_shell, line: 272, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: wrapper, line: 209, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: process_one, line: 365, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
+%%     [function: run, line: 748, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
+%%     [function: __init__, line: 714, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
+%%     [function: wrapper, line: 225, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
+%%     [function: dispatch_queue, line: 378, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: run, line: 748, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: inner, line: 787, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: _run_callback, line: 743, file: /usr/lib/python3.7/site-packages/tornado/ioloop.py]
