@@ -1,0 +1,3 @@
+[submodule "examples/fbb/fractional_brownian_motion"]
+	path = examples/fbb/fractional_brownian_motion
+	url = https://github.com/kjetil-lye/fractional_brownian_motion.git
