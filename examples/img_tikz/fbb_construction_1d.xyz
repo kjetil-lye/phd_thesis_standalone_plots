@@ -14,6 +14,7 @@ x grid style={white!69.01960784313725!black},
 xmin=-0.05, xmax=1.05,
 xtick={0,1},
 xticklabels={$0$,$1$},
+y grid style={white!69.01960784313725!black},
 ylabel={$l=0$},
 ymin=-0.1, ymax=0.6
 ]
@@ -39,6 +40,18 @@ table [row sep=\\]{%
 \path [draw=black, fill opacity=0] (axis cs:-0.05,1)
 --(axis cs:1.05,1);
 
+\node at (axis cs:0,0.05)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{1}, 1}_{0}(X)$};
+\node at (axis cs:1,0.05)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{1}, 1}_{16}(X)$};
 \nextgroupplot[
 height=\figureheight,
 tick align=outside,
@@ -48,6 +61,7 @@ x grid style={white!69.01960784313725!black},
 xmin=-0.05, xmax=1.05,
 xtick={0,0.5,1},
 xticklabels={$0$,$\frac{1}{2}$,$1$},
+y grid style={white!69.01960784313725!black},
 ylabel={$l=1$},
 ymin=-0.1, ymax=0.6
 ]
@@ -80,6 +94,12 @@ table [row sep=\\]{%
 \path [draw=black, fill opacity=0] (axis cs:-0.05,1)
 --(axis cs:1.05,1);
 
+\node at (axis cs:0.5,0.298357076505616)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{2}, 1}_{8}(X)$};
 \nextgroupplot[
 height=\figureheight,
 tick align=outside,
@@ -89,6 +109,7 @@ x grid style={white!69.01960784313725!black},
 xmin=-0.05, xmax=1.05,
 xtick={0,0.25,0.5,0.75,1},
 xticklabels={$0$,$\frac{1}{4}$,$\frac{1}{2}$,$\frac{3}{4}$,$1$},
+y grid style={white!69.01960784313725!black},
 ylabel={$l=2$},
 ymin=-0.1, ymax=0.6
 ]
@@ -126,6 +147,18 @@ table [row sep=\\]{%
 \path [draw=black, fill opacity=0] (axis cs:-0.05,1)
 --(axis cs:1.05,1);
 
+\node at (axis cs:0.25,0.125294725775726)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{4}, 1}_{4}(X)$};
+\node at (axis cs:0.75,0.403171016946709)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{4}, 1}_{12}(X)$};
 \nextgroupplot[
 height=\figureheight,
 tick align=outside,
@@ -135,6 +168,7 @@ x grid style={white!69.01960784313725!black},
 xmin=-0.05, xmax=1.05,
 xtick={0,0.125,0.25,0.375,0.5,0.625,0.75,0.875,1},
 xticklabels={$0$,$\frac{1}{8}$,$\frac{1}{4}$,$\frac{3}{8}$,$\frac{1}{2}$,$\frac{5}{8}$,$\frac{3}{4}$,$\frac{7}{8}$,$1$},
+y grid style={white!69.01960784313725!black},
 ylabel={$l=3$},
 ymin=-0.1, ymax=0.6
 ]
@@ -182,6 +216,30 @@ table [row sep=\\]{%
 \path [draw=black, fill opacity=0] (axis cs:-0.05,1)
 --(axis cs:1.05,1);
 
+\node at (axis cs:0.125,0.468404826989869)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{8}, 1}_{2}(X)$};
+\node at (axis cs:0.375,0.153287557459837)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{8}, 1}_{6}(X)$};
+\node at (axis cs:0.625,0.292229807488867)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{8}, 1}_{10}(X)$};
+\node at (axis cs:0.875,0.621388712350202)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{8}, 1}_{14}(X)$};
 \nextgroupplot[
 height=\figureheight,
 tick align=outside,
@@ -191,6 +249,7 @@ x grid style={white!69.01960784313725!black},
 xmin=-0.05, xmax=1.05,
 xtick={0,0.0625,0.125,0.1875,0.25,0.3125,0.375,0.4375,0.5,0.5625,0.625,0.6875,0.75,0.8125,0.875,0.9375,1},
 xticklabels={$0$,$\frac{1}{16}$,$\frac{1}{8}$,$\frac{3}{16}$,$\frac{1}{4}$,$\frac{5}{16}$,$\frac{3}{8}$,$\frac{7}{16}$,$\frac{1}{2}$,$\frac{9}{16}$,$\frac{5}{8}$,$\frac{11}{16}$,$\frac{3}{4}$,$\frac{13}{16}$,$\frac{7}{8}$,$\frac{15}{16}$,$1$},
+y grid style={white!69.01960784313725!black},
 ylabel={$l=4$},
 ymin=-0.1, ymax=0.6
 ]
@@ -258,6 +317,54 @@ table [row sep=\\]{%
 \path [draw=black, fill opacity=0] (axis cs:-0.05,1)
 --(axis cs:1.05,1);
 
+\node at (axis cs:0.0625,0.394866988770456)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{16}, 1}_{1}(X)$};
+\node at (axis cs:0.1875,0.213857645910799)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{16}, 1}_{3}(X)$};
+\node at (axis cs:0.3125,0.235203113122908)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{16}, 1}_{5}(X)$};
+\node at (axis cs:0.4375,0.143900868705348)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{16}, 1}_{7}(X)$};
+\node at (axis cs:0.5625,0.212963275259775)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{16}, 1}_{9}(X)$};
+\node at (axis cs:0.6875,0.390473702971699)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{16}, 1}_{11}(X)$};
+\node at (axis cs:0.8125,0.174056505821509)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{16}, 1}_{13}(X)$};
+\node at (axis cs:0.9375,0.0307690820852094)[
+  scale=0.5,
+  anchor=base west,
+  text=color0,
+  rotate=0.0
+]{ $B^{0.5, \frac{1}{16}, 1}_{15}(X)$};
 \nextgroupplot[
 height=\figureheight,
 tick align=outside,
@@ -2407,7 +2514,7 @@ Hostname: lyelaptop};
 %% GIT git_short_commit : 3f3b
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/fbb
 %% hostname : lyelaptop
-%% generated_on_date : 2019-10-07 15:53:57.764186
+%% generated_on_date : 2019-10-08 12:20:06.418089
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-5d2c364e-02ae-437c-938c-923f1cf2c5e2.json
@@ -3504,10 +3611,11 @@ Hostname: lyelaptop};
 %%     mpl_toolkits.mplot3d.proj3d: Unknown (/usr/lib/python3.7/site-packages/mpl_toolkits/mplot3d/proj3d.py)
 %%     mpl_toolkits.mplot3d.axis3d: Unknown (/usr/lib/python3.7/site-packages/mpl_toolkits/mplot3d/axis3d.py)
 %%     zmq.utils.garbage: Unknown (/usr/lib/python3.7/site-packages/zmq/utils/garbage.py)
+%%     jedi.evaluate.star_args: Unknown (/usr/lib/python3.7/site-packages/jedi/evaluate/star_args.py)
 %% stacktrace:
 %%     [function: savePlot, line: 304, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 338, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 51, file: <ipython-input-4-7b566ad4eb8c>]
+%%     [function: <module>, line: 60, file: <ipython-input-21-57997b112913>]
 %%     [function: run_code, line: 3325, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3248, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3057, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
@@ -3522,10 +3630,6 @@ Hostname: lyelaptop};
 %%     [function: dispatch_shell, line: 272, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: wrapper, line: 209, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: process_one, line: 365, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
-%%     [function: run, line: 748, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
-%%     [function: __init__, line: 714, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
-%%     [function: wrapper, line: 225, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
-%%     [function: dispatch_queue, line: 378, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: run, line: 748, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: inner, line: 787, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: _run_callback, line: 743, file: /usr/lib/python3.7/site-packages/tornado/ioloop.py]
