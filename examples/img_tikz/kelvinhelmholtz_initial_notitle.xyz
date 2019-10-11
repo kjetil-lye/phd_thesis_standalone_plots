@@ -17,79 +17,7 @@ ymin=0, ymax=1,
 ytick={0,0.2,0.4,0.6,0.8,1},
 yticklabels={0.0,0.2,0.4,0.6,0.8,1.0}
 ]
-\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {kelvinhelmholtz_initial_notitle-006.png};
-\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
---(axis cs:0.09125,0.00375)
---(axis cs:0.0875,0.01125)
---(axis cs:0.125,0)
---(axis cs:0.0875,-0.01125)
---(axis cs:0.09125,-0.00375)
---(axis cs:0,-0.00375)
---(axis cs:0,0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
---(axis cs:0.09125,0.00375)
---(axis cs:0.0875,0.01125)
---(axis cs:0.125,0)
---(axis cs:0.0875,-0.01125)
---(axis cs:0.09125,-0.00375)
---(axis cs:0,-0.00375)
---(axis cs:0,0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
---(axis cs:0.09125,0.00375)
---(axis cs:0.0875,0.01125)
---(axis cs:0.125,0)
---(axis cs:0.0875,-0.01125)
---(axis cs:0.09125,-0.00375)
---(axis cs:0,-0.00375)
---(axis cs:0,0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
---(axis cs:-0.09125,-0.00374999999999999)
---(axis cs:-0.0875,-0.01125)
---(axis cs:-0.125,1.53080849893419e-17)
---(axis cs:-0.0875,0.01125)
---(axis cs:-0.09125,0.00375000000000001)
---(axis cs:4.59242549680257e-19,0.00375)
---(axis cs:-4.59242549680257e-19,-0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
---(axis cs:-0.09125,-0.00374999999999999)
---(axis cs:-0.0875,-0.01125)
---(axis cs:-0.125,1.53080849893419e-17)
---(axis cs:-0.0875,0.01125)
---(axis cs:-0.09125,0.00375000000000001)
---(axis cs:4.59242549680257e-19,0.00375)
---(axis cs:-4.59242549680257e-19,-0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
---(axis cs:-0.09125,-0.00374999999999999)
---(axis cs:-0.0875,-0.01125)
---(axis cs:-0.125,1.53080849893419e-17)
---(axis cs:-0.0875,0.01125)
---(axis cs:-0.09125,0.00375000000000001)
---(axis cs:4.59242549680257e-19,0.00375)
---(axis cs:-4.59242549680257e-19,-0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
---(axis cs:0.09125,0.00375)
---(axis cs:0.0875,0.01125)
---(axis cs:0.125,0)
---(axis cs:0.0875,-0.01125)
---(axis cs:0.09125,-0.00375)
---(axis cs:0,-0.00375)
---(axis cs:0,0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
---(axis cs:0.09125,0.00375)
---(axis cs:0.0875,0.01125)
---(axis cs:0.125,0)
---(axis cs:0.0875,-0.01125)
---(axis cs:0.09125,-0.00375)
---(axis cs:0,-0.00375)
---(axis cs:0,0.00375);
-
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {kelvinhelmholtz_initial_notitle-007.png};
 \path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
 --(axis cs:0.09125,0.00375)
 --(axis cs:0.0875,0.01125)
@@ -252,69 +180,6 @@ yticklabels={0.0,0.2,0.4,0.6,0.8,1.0}
 --(axis cs:0,-0.00375)
 --(axis cs:0,0.00375);
 
-\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
---(axis cs:-0.09125,-0.00374999999999999)
---(axis cs:-0.0875,-0.01125)
---(axis cs:-0.125,1.53080849893419e-17)
---(axis cs:-0.0875,0.01125)
---(axis cs:-0.09125,0.00375000000000001)
---(axis cs:4.59242549680257e-19,0.00375)
---(axis cs:-4.59242549680257e-19,-0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
---(axis cs:-0.09125,-0.00374999999999999)
---(axis cs:-0.0875,-0.01125)
---(axis cs:-0.125,1.53080849893419e-17)
---(axis cs:-0.0875,0.01125)
---(axis cs:-0.09125,0.00375000000000001)
---(axis cs:4.59242549680257e-19,0.00375)
---(axis cs:-4.59242549680257e-19,-0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
---(axis cs:-0.09125,-0.00374999999999999)
---(axis cs:-0.0875,-0.01125)
---(axis cs:-0.125,1.53080849893419e-17)
---(axis cs:-0.0875,0.01125)
---(axis cs:-0.09125,0.00375000000000001)
---(axis cs:4.59242549680257e-19,0.00375)
---(axis cs:-4.59242549680257e-19,-0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
---(axis cs:-0.09125,-0.00374999999999999)
---(axis cs:-0.0875,-0.01125)
---(axis cs:-0.125,1.53080849893419e-17)
---(axis cs:-0.0875,0.01125)
---(axis cs:-0.09125,0.00375000000000001)
---(axis cs:4.59242549680257e-19,0.00375)
---(axis cs:-4.59242549680257e-19,-0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
---(axis cs:-0.09125,-0.00374999999999999)
---(axis cs:-0.0875,-0.01125)
---(axis cs:-0.125,1.53080849893419e-17)
---(axis cs:-0.0875,0.01125)
---(axis cs:-0.09125,0.00375000000000001)
---(axis cs:4.59242549680257e-19,0.00375)
---(axis cs:-4.59242549680257e-19,-0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
---(axis cs:0.09125,0.00375)
---(axis cs:0.0875,0.01125)
---(axis cs:0.125,0)
---(axis cs:0.0875,-0.01125)
---(axis cs:0.09125,-0.00375)
---(axis cs:0,-0.00375)
---(axis cs:0,0.00375);
-
-\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
---(axis cs:0.09125,0.00375)
---(axis cs:0.0875,0.01125)
---(axis cs:0.125,0)
---(axis cs:0.0875,-0.01125)
---(axis cs:0.09125,-0.00375)
---(axis cs:0,-0.00375)
---(axis cs:0,0.00375);
-
 \path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
 --(axis cs:0.09125,0.00375)
 --(axis cs:0.0875,0.01125)
@@ -351,14 +216,14 @@ yticklabels={0.0,0.2,0.4,0.6,0.8,1.0}
 --(axis cs:4.59242549680257e-19,0.00375)
 --(axis cs:-4.59242549680257e-19,-0.00375);
 
-\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
---(axis cs:-0.09125,-0.00374999999999999)
---(axis cs:-0.0875,-0.01125)
---(axis cs:-0.125,1.53080849893419e-17)
---(axis cs:-0.0875,0.01125)
---(axis cs:-0.09125,0.00375000000000001)
---(axis cs:4.59242549680257e-19,0.00375)
---(axis cs:-4.59242549680257e-19,-0.00375);
+\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
+--(axis cs:0.09125,0.00375)
+--(axis cs:0.0875,0.01125)
+--(axis cs:0.125,0)
+--(axis cs:0.0875,-0.01125)
+--(axis cs:0.09125,-0.00375)
+--(axis cs:0,-0.00375)
+--(axis cs:0,0.00375);
 
 \path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
 --(axis cs:0.09125,0.00375)
@@ -459,6 +324,69 @@ yticklabels={0.0,0.2,0.4,0.6,0.8,1.0}
 --(axis cs:0,-0.00375)
 --(axis cs:0,0.00375);
 
+\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
+--(axis cs:-0.09125,-0.00374999999999999)
+--(axis cs:-0.0875,-0.01125)
+--(axis cs:-0.125,1.53080849893419e-17)
+--(axis cs:-0.0875,0.01125)
+--(axis cs:-0.09125,0.00375000000000001)
+--(axis cs:4.59242549680257e-19,0.00375)
+--(axis cs:-4.59242549680257e-19,-0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
+--(axis cs:-0.09125,-0.00374999999999999)
+--(axis cs:-0.0875,-0.01125)
+--(axis cs:-0.125,1.53080849893419e-17)
+--(axis cs:-0.0875,0.01125)
+--(axis cs:-0.09125,0.00375000000000001)
+--(axis cs:4.59242549680257e-19,0.00375)
+--(axis cs:-4.59242549680257e-19,-0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
+--(axis cs:-0.09125,-0.00374999999999999)
+--(axis cs:-0.0875,-0.01125)
+--(axis cs:-0.125,1.53080849893419e-17)
+--(axis cs:-0.0875,0.01125)
+--(axis cs:-0.09125,0.00375000000000001)
+--(axis cs:4.59242549680257e-19,0.00375)
+--(axis cs:-4.59242549680257e-19,-0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
+--(axis cs:-0.09125,-0.00374999999999999)
+--(axis cs:-0.0875,-0.01125)
+--(axis cs:-0.125,1.53080849893419e-17)
+--(axis cs:-0.0875,0.01125)
+--(axis cs:-0.09125,0.00375000000000001)
+--(axis cs:4.59242549680257e-19,0.00375)
+--(axis cs:-4.59242549680257e-19,-0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
+--(axis cs:0.09125,0.00375)
+--(axis cs:0.0875,0.01125)
+--(axis cs:0.125,0)
+--(axis cs:0.0875,-0.01125)
+--(axis cs:0.09125,-0.00375)
+--(axis cs:0,-0.00375)
+--(axis cs:0,0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
+--(axis cs:0.09125,0.00375)
+--(axis cs:0.0875,0.01125)
+--(axis cs:0.125,0)
+--(axis cs:0.0875,-0.01125)
+--(axis cs:0.09125,-0.00375)
+--(axis cs:0,-0.00375)
+--(axis cs:0,0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
+--(axis cs:0.09125,0.00375)
+--(axis cs:0.0875,0.01125)
+--(axis cs:0.125,0)
+--(axis cs:0.0875,-0.01125)
+--(axis cs:0.09125,-0.00375)
+--(axis cs:0,-0.00375)
+--(axis cs:0,0.00375);
+
 \path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
 --(axis cs:0.09125,0.00375)
 --(axis cs:0.0875,0.01125)
@@ -504,6 +432,15 @@ yticklabels={0.0,0.2,0.4,0.6,0.8,1.0}
 --(axis cs:4.59242549680257e-19,0.00375)
 --(axis cs:-4.59242549680257e-19,-0.00375);
 
+\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
+--(axis cs:-0.09125,-0.00374999999999999)
+--(axis cs:-0.0875,-0.01125)
+--(axis cs:-0.125,1.53080849893419e-17)
+--(axis cs:-0.0875,0.01125)
+--(axis cs:-0.09125,0.00375000000000001)
+--(axis cs:4.59242549680257e-19,0.00375)
+--(axis cs:-4.59242549680257e-19,-0.00375);
+
 \path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
 --(axis cs:0.09125,0.00375)
 --(axis cs:0.0875,0.01125)
@@ -512,6 +449,69 @@ yticklabels={0.0,0.2,0.4,0.6,0.8,1.0}
 --(axis cs:0.09125,-0.00375)
 --(axis cs:0,-0.00375)
 --(axis cs:0,0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
+--(axis cs:0.09125,0.00375)
+--(axis cs:0.0875,0.01125)
+--(axis cs:0.125,0)
+--(axis cs:0.0875,-0.01125)
+--(axis cs:0.09125,-0.00375)
+--(axis cs:0,-0.00375)
+--(axis cs:0,0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
+--(axis cs:0.09125,0.00375)
+--(axis cs:0.0875,0.01125)
+--(axis cs:0.125,0)
+--(axis cs:0.0875,-0.01125)
+--(axis cs:0.09125,-0.00375)
+--(axis cs:0,-0.00375)
+--(axis cs:0,0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
+--(axis cs:0.09125,0.00375)
+--(axis cs:0.0875,0.01125)
+--(axis cs:0.125,0)
+--(axis cs:0.0875,-0.01125)
+--(axis cs:0.09125,-0.00375)
+--(axis cs:0,-0.00375)
+--(axis cs:0,0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
+--(axis cs:-0.09125,-0.00374999999999999)
+--(axis cs:-0.0875,-0.01125)
+--(axis cs:-0.125,1.53080849893419e-17)
+--(axis cs:-0.0875,0.01125)
+--(axis cs:-0.09125,0.00375000000000001)
+--(axis cs:4.59242549680257e-19,0.00375)
+--(axis cs:-4.59242549680257e-19,-0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
+--(axis cs:-0.09125,-0.00374999999999999)
+--(axis cs:-0.0875,-0.01125)
+--(axis cs:-0.125,1.53080849893419e-17)
+--(axis cs:-0.0875,0.01125)
+--(axis cs:-0.09125,0.00375000000000001)
+--(axis cs:4.59242549680257e-19,0.00375)
+--(axis cs:-4.59242549680257e-19,-0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
+--(axis cs:-0.09125,-0.00374999999999999)
+--(axis cs:-0.0875,-0.01125)
+--(axis cs:-0.125,1.53080849893419e-17)
+--(axis cs:-0.0875,0.01125)
+--(axis cs:-0.09125,0.00375000000000001)
+--(axis cs:4.59242549680257e-19,0.00375)
+--(axis cs:-4.59242549680257e-19,-0.00375);
+
+\path [fill=white!70.19607843137254!black] (axis cs:-4.59242549680257e-19,-0.00375)
+--(axis cs:-0.09125,-0.00374999999999999)
+--(axis cs:-0.0875,-0.01125)
+--(axis cs:-0.125,1.53080849893419e-17)
+--(axis cs:-0.0875,0.01125)
+--(axis cs:-0.09125,0.00375000000000001)
+--(axis cs:4.59242549680257e-19,0.00375)
+--(axis cs:-4.59242549680257e-19,-0.00375);
 
 \path [fill=white!70.19607843137254!black] (axis cs:0,0.00375)
 --(axis cs:0.09125,0.00375)
@@ -613,7 +613,7 @@ yticklabels={0.0,0.2,0.4,0.6,0.8,1.0}
   rotate=0.0,
   align=right
 ]{ By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: cce7333b7a5f64fe2f4464940644765b088ba3a0
+Commit: 02417a44b323f571b1d6108d9e7f9cfdec1a20d3
 Repo: git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
 Hostname: lyelaptop};
 \node at (axis cs:0.2,0.93)[
@@ -621,7 +621,7 @@ Hostname: lyelaptop};
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{ @cce7};
+]{ @0241};
 \node at (axis cs:0.95,0.01)[
   scale=0.15,
   anchor=south east,
@@ -629,7 +629,7 @@ Hostname: lyelaptop};
   rotate=0.0,
   align=right
 ]{ By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: cce7333b7a5f64fe2f4464940644765b088ba3a0
+Commit: 02417a44b323f571b1d6108d9e7f9cfdec1a20d3
 Repo: git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
 Hostname: lyelaptop};
 \end{axis}
@@ -643,14 +643,14 @@ Hostname: lyelaptop};
 %% script name: InitialData2D.ipynb
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : cce7333b7a5f64fe2f4464940644765b088ba3a0
-%% GIT git_repo_modified : True
+%% GIT git_commit : 02417a44b323f571b1d6108d9e7f9cfdec1a20d3
+%% GIT git_repo_modified : False
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : cce7
+%% GIT git_short_commit : 0241
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/initial_datas
 %% hostname : lyelaptop
-%% generated_on_date : 2019-10-11 13:42:17.835325
+%% generated_on_date : 2019-10-11 13:42:43.380842
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-cc33d595-61a4-40d7-9dd7-3ed801982f0c.json
@@ -1743,7 +1743,7 @@ Hostname: lyelaptop};
 %%     [function: savePlot, line: 304, file: ../../python/plot_info.py]
 %%     [function: savePlot, line: 326, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 338, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 38, file: <ipython-input-8-daabc5bf311c>]
+%%     [function: <module>, line: 38, file: <ipython-input-2-daabc5bf311c>]
 %%     [function: run_code, line: 3325, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3248, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3057, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
@@ -1758,6 +1758,10 @@ Hostname: lyelaptop};
 %%     [function: dispatch_shell, line: 272, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: wrapper, line: 209, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: process_one, line: 365, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
+%%     [function: run, line: 748, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
+%%     [function: __init__, line: 714, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
+%%     [function: wrapper, line: 225, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
+%%     [function: dispatch_queue, line: 378, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: run, line: 748, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: inner, line: 787, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: _run_callback, line: 743, file: /usr/lib/python3.7/site-packages/tornado/ioloop.py]
