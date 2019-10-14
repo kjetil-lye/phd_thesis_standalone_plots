@@ -13,7 +13,7 @@ y grid style={white!69.01960784313725!black},
 ylabel={$y$},
 ymin=0, ymax=1
 ]
-\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {kelvinhelmholtz_initial-007.png};
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {kelvinhelmholtz_initial-012.png};
 \node at (axis cs:0.95,0.01)[
   scale=0.15,
   anchor=south east,
@@ -21,15 +21,15 @@ ymin=0, ymax=1
   rotate=0.0,
   align=right
 ]{ By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: 02417a44b323f571b1d6108d9e7f9cfdec1a20d3
-Repo: git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
+Commit: 17f8341b72e4bb67e14a546eb0d5458983193a68
+Repo: git@github.com:kjetil-lye/phd\_thesis\_standalone\_plots.git
 Hostname: lyelaptop};
 \node at (axis cs:0.2,0.93)[
   scale=0.5,
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{ @0241};
+]{ @17f8};
 \end{axis}
 
 \end{tikzpicture}
@@ -40,17 +40,17 @@ Hostname: lyelaptop};
 %% script name: InitialData2D.ipynb
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : 02417a44b323f571b1d6108d9e7f9cfdec1a20d3
-%% GIT git_repo_modified : False
+%% GIT git_commit : 17f8341b72e4bb67e14a546eb0d5458983193a68
+%% GIT git_repo_modified : True
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : 0241
+%% GIT git_short_commit : 17f8
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/initial_datas
 %% hostname : lyelaptop
-%% generated_on_date : 2019-10-11 13:42:42.556599
+%% generated_on_date : 2019-10-14 12:07:50.411693
 %% accessed_environment:
 %% additional_parameters:
-%%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-cc33d595-61a4-40d7-9dd7-3ed801982f0c.json
+%%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-4d0a8d7b-03a6-42fe-9cfa-851869ad4b7f.json
 %% python_version: 
 %%    /usr/bin/python3 (Version: 3.7.4 (default, Jul 16 2019, 07:12:58) 
 %%    [GCC 9.1.0])
@@ -940,6 +940,7 @@ Hostname: lyelaptop};
 %%     numpy.testing._private.decorators: Unknown (/usr/lib/python3.7/site-packages/numpy/testing/_private/decorators.py)
 %%     numpy.testing._private.nosetester: Unknown (/usr/lib/python3.7/site-packages/numpy/testing/_private/nosetester.py)
 %%     plot_info: 1.17.2 (../../python/plot_info.py)
+%%     latex_plots: Unknown (../../python/latex_plots.py)
 %%     matplotlib: 3.1.1 (/usr/lib/python3.7/site-packages/matplotlib/__init__.py)
 %%     distutils: 3.7.4 (/usr/lib/python3.7/distutils/__init__.py)
 %%     distutils.version: Unknown (/usr/lib/python3.7/distutils/version.py)
@@ -1136,9 +1137,9 @@ Hostname: lyelaptop};
 %%     PIL.PpmImagePlugin: 0.2 (/usr/lib/python3.7/site-packages/PIL/PpmImagePlugin.py)
 %%     PIL.PngImagePlugin: 0.9 (/usr/lib/python3.7/site-packages/PIL/PngImagePlugin.py)
 %% stacktrace:
-%%     [function: savePlot, line: 304, file: ../../python/plot_info.py]
-%%     [function: showAndSave, line: 338, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 38, file: <ipython-input-2-daabc5bf311c>]
+%%     [function: savePlot, line: 306, file: ../../python/plot_info.py]
+%%     [function: showAndSave, line: 340, file: ../../python/plot_info.py]
+%%     [function: <module>, line: 38, file: <ipython-input-2-9cc9f0c40bc9>]
 %%     [function: run_code, line: 3325, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3248, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3057, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]

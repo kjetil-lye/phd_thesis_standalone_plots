@@ -1,5 +1,5 @@
 import matplotlib
-matplotlib.use('Agg')
+
 matplotlib.rcParams['savefig.dpi'] = 600
 # see https://stackoverflow.com/a/46262952 (for norm symbol)
 # and https://stackoverflow.com/a/23856968

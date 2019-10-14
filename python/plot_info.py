@@ -224,6 +224,7 @@ def savePlot(name):
     gitMetadata = get_git_metadata()
     informationText = 'By %s\nCommit: %s\nRepo: %s\nHostname: %s' % (
     AUTHORS, gitMetadata['git_commit'], gitMetadata['git_remote_url'], socket.gethostname())
+    informationText = informationText.replace('_', '\\_')
     textcolor = 'gray'
 
     # we also have some 3d plots, which we need to use a special text function,
