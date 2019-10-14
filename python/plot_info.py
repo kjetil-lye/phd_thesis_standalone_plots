@@ -1,3 +1,4 @@
+import latex_plots
 AUTHORS = "Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>"
 import numpy
 import glob
