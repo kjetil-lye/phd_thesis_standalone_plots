@@ -24,7 +24,7 @@ ymin=0, ymax=1,
 ytick={0,0.2,0.4,0.6,0.8,1},
 yticklabels={$0.0$,$0.2$,$0.4$,$0.6$,$0.8$,$1.0$}
 ]
-\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {cloudshock_initial_rho_notitle-004.png};
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {cloudshock_initial_rho_notitle-005.png};
 \path [fill=color0] (axis cs:0,0.00375)
 --(axis cs:0.10692,0.00375)
 --(axis cs:0.10317,0.01125)
@@ -620,7 +620,7 @@ yticklabels={$0.0$,$0.2$,$0.4$,$0.6$,$0.8$,$1.0$}
   rotate=0.0,
   align=right
 ]{ By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: d6d7fd78ed85a00f09b22c5761cc875290731e59
+Commit: 50e5628abcce46577e2b5bf9d76bc0253a23aa3a
 Repo: git@github.com:kjetil-lye/phd\_thesis\_standalone\_plots.git
 Hostname: lyelaptop};
 \node at (axis cs:0.2,0.93)[
@@ -628,7 +628,7 @@ Hostname: lyelaptop};
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{ @d6d7};
+]{ @50e5};
 \node at (axis cs:0.95,0.01)[
   scale=0.15,
   anchor=south east,
@@ -636,7 +636,7 @@ Hostname: lyelaptop};
   rotate=0.0,
   align=right
 ]{ By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: d6d7fd78ed85a00f09b22c5761cc875290731e59
+Commit: 50e5628abcce46577e2b5bf9d76bc0253a23aa3a
 Repo: git@github.com:kjetil-lye/phd\_thesis\_standalone\_plots.git
 Hostname: lyelaptop};
 \end{axis}
@@ -650,20 +650,20 @@ Hostname: lyelaptop};
 %% script name: InitialData2D.ipynb
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : d6d7fd78ed85a00f09b22c5761cc875290731e59
+%% GIT git_commit : 50e5628abcce46577e2b5bf9d76bc0253a23aa3a
 %% GIT git_repo_modified : False
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : d6d7
+%% GIT git_short_commit : 50e5
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/initial_datas
 %% hostname : lyelaptop
-%% generated_on_date : 2019-10-16 13:43:32.079350
+%% generated_on_date : 2019-10-16 14:08:24.875605
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-4d0a8d7b-03a6-42fe-9cfa-851869ad4b7f.json
 %% python_version: 
-%%    /usr/bin/python3 (Version: 3.7.4 (default, Jul 16 2019, 07:12:58) 
-%%    [GCC 9.1.0])
+%%    /usr/bin/python3 (Version: 3.7.4 (default, Oct  4 2019, 06:57:26) 
+%%    [GCC 9.2.0])
 %% python modules:
 %%     sys: Unknown (Unknown)
 %%     builtins: Unknown (Unknown)
@@ -1751,7 +1751,7 @@ Hostname: lyelaptop};
 %%     [function: savePlot, line: 306, file: ../../python/plot_info.py]
 %%     [function: savePlot, line: 328, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 340, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 50, file: <ipython-input-30-cc515d4b5cc0>]
+%%     [function: <module>, line: 50, file: <ipython-input-4-cc515d4b5cc0>]
 %%     [function: run_code, line: 3325, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3248, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3057, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
@@ -1766,6 +1766,10 @@ Hostname: lyelaptop};
 %%     [function: dispatch_shell, line: 272, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: wrapper, line: 209, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: process_one, line: 365, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
+%%     [function: run, line: 748, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
+%%     [function: __init__, line: 714, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
+%%     [function: wrapper, line: 225, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
+%%     [function: dispatch_queue, line: 378, file: /usr/lib/python3.7/site-packages/ipykernel/kernelbase.py]
 %%     [function: run, line: 748, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: inner, line: 787, file: /usr/lib/python3.7/site-packages/tornado/gen.py]
 %%     [function: _run_callback, line: 743, file: /usr/lib/python3.7/site-packages/tornado/ioloop.py]
