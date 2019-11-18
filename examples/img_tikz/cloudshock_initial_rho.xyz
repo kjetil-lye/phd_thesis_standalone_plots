@@ -18,7 +18,7 @@ y grid style={white!69.01960784313725!black},
 ylabel={$y$},
 ymin=0, ymax=1
 ]
-\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {cloudshock_initial_rho-006.png};
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {cloudshock_initial_rho-007.png};
 \node at (axis cs:0.95,0.01)[
   scale=0.15,
   anchor=south east,
@@ -26,7 +26,7 @@ ymin=0, ymax=1
   rotate=0.0,
   align=right
 ]{ By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: 478361edd9f83686cc9041508e17dd3505338cf7
+Commit: 6bb82f309570777738c9c99698dcb5b848b3bd7c
 Repo: git@github.com:kjetil-lye/phd\_thesis\_standalone\_plots.git
 Hostname: lyelaptop};
 \node at (axis cs:0.2,0.93)[
@@ -34,7 +34,7 @@ Hostname: lyelaptop};
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{ @4783};
+]{ @6bb8};
 \end{axis}
 
 \end{tikzpicture}
@@ -45,14 +45,14 @@ Hostname: lyelaptop};
 %% script name: InitialData2D.ipynb
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : 478361edd9f83686cc9041508e17dd3505338cf7
-%% GIT git_repo_modified : True
+%% GIT git_commit : 6bb82f309570777738c9c99698dcb5b848b3bd7c
+%% GIT git_repo_modified : False
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : 4783
+%% GIT git_short_commit : 6bb8
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/initial_datas
 %% hostname : lyelaptop
-%% generated_on_date : 2019-11-18 09:48:54.185346
+%% generated_on_date : 2019-11-18 10:02:24.259638
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-802ec42d-c9cc-4157-bb38-4b07c547de34.json
