@@ -33892,7 +33892,7 @@ Hostname: lyelaptop};
 %% GIT git_short_commit : b72b
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/uniqueness_young_measure
 %% hostname : lyelaptop
-%% generated_on_date : 2019-11-17 16:57:04.002891
+%% generated_on_date : 2019-11-17 17:24:58.873876
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-7edf88ff-1ff6-4900-9002-649d164adf26.json
@@ -34985,7 +34985,7 @@ Hostname: lyelaptop};
 %%     [function: savePlot, line: 306, file: ../../python/plot_info.py]
 %%     [function: savePlot, line: 328, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 340, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 49, file: <ipython-input-32-8db3981aba6d>]
+%%     [function: <module>, line: 49, file: <ipython-input-33-4c2f61c145a8>]
 %%     [function: run_code, line: 3326, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3249, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3058, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
