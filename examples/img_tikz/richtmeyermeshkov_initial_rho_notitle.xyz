@@ -22,7 +22,7 @@ ymin=0, ymax=1,
 ytick={0,0.2,0.4,0.6,0.8,1},
 yticklabels={$0.0$,$0.2$,$0.4$,$0.6$,$0.8$,$1.0$}
 ]
-\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {richtmeyermeshkov_initial_rho_notitle-019.png};
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=1] {richtmeyermeshkov_initial_rho_notitle-020.png};
 \path [draw=black, fill opacity=0] (axis cs:0,0)
 --(axis cs:0,1);
 
@@ -79,7 +79,7 @@ Hostname: lyelaptop};
 %% GIT git_short_commit : 4783
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/initial_datas
 %% hostname : lyelaptop
-%% generated_on_date : 2019-11-18 09:48:47.152758
+%% generated_on_date : 2019-11-18 10:01:35.607568
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-802ec42d-c9cc-4157-bb38-4b07c547de34.json
@@ -1172,7 +1172,7 @@ Hostname: lyelaptop};
 %%     [function: savePlot, line: 306, file: ../../python/plot_info.py]
 %%     [function: savePlot, line: 328, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 340, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 48, file: <ipython-input-3-ae5f74e845d6>]
+%%     [function: <module>, line: 48, file: <ipython-input-7-3a54200253d1>]
 %%     [function: run_code, line: 3326, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3249, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3058, file: /usr/lib/python3.7/site-packages/IPython/core/interactiveshell.py]
