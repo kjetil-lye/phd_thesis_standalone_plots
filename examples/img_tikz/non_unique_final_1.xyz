@@ -154,7 +154,7 @@ table {%
   rotate=0.0,
   align=right
 ]{By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: 8eaa7b996453cf1fdf95ebd2c312734cd83b6b3b
+Commit: 820e1dca78a9ee32e2a84f528a4059de9044bb96
 Repo: git@github.com:kjetil-lye/phd\_thesis\_standalone\_plots.git
 Hostname: galerkin};
 \node at (axis cs:0.2,0.93)[
@@ -162,7 +162,7 @@ Hostname: galerkin};
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{@8eaa};
+]{@820e};
 \end{axis}
 
 \end{tikzpicture}
@@ -174,14 +174,14 @@ Hostname: galerkin};
 %% script name: /usr/lib/python3.8/site-packages/ipykernel_launcher.py
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : 8eaa7b996453cf1fdf95ebd2c312734cd83b6b3b
+%% GIT git_commit : 820e1dca78a9ee32e2a84f528a4059de9044bb96
 %% GIT git_repo_modified : True
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : 8eaa
+%% GIT git_short_commit : 820e
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/uniqueness_young_measure
 %% hostname : galerkin
-%% generated_on_date : 2019-12-05 16:30:48.109056
+%% generated_on_date : 2019-12-05 16:55:31.008956
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.8/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-f115e66c-5cd6-43ac-b045-c677d789db37.json

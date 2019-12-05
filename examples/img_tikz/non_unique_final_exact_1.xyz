@@ -3,7 +3,7 @@
 
 \begin{axis}[
 colorbar,
-colorbar style={ylabel={}},
+colorbar style={ylabel={$\tilde{\nu}_{x, 0.2}(u)$}},
 colormap/viridis,
 height=\figureheight,
 point meta max=1,
@@ -12,13 +12,15 @@ tick align=outside,
 tick pos=left,
 width=\figurewidth,
 x grid style={white!69.01960784313725!black},
+xlabel={\(\displaystyle x\)},
 xmin=0, xmax=1,
 xtick style={color=black},
 y grid style={white!69.01960784313725!black},
+ylabel={\(\displaystyle u\)},
 ymin=0, ymax=2,
 ytick style={color=black}
 ]
-\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=2] {non_unique_final_exact_1-004.png};
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=1, ymin=0, ymax=2] {non_unique_final_exact_1-009.png};
 \node at (axis cs:0.95,0.01)[
   scale=0.15,
   anchor=south east,
@@ -26,7 +28,7 @@ ytick style={color=black}
   rotate=0.0,
   align=right
 ]{By Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com>
-Commit: 8eaa7b996453cf1fdf95ebd2c312734cd83b6b3b
+Commit: 820e1dca78a9ee32e2a84f528a4059de9044bb96
 Repo: git@github.com:kjetil-lye/phd\_thesis\_standalone\_plots.git
 Hostname: galerkin};
 \node at (axis cs:0.2,0.93)[
@@ -34,7 +36,7 @@ Hostname: galerkin};
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{@8eaa};
+]{@820e};
 \end{axis}
 
 \end{tikzpicture}
@@ -46,14 +48,14 @@ Hostname: galerkin};
 %% script name: /usr/lib/python3.8/site-packages/ipykernel_launcher.py
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : 8eaa7b996453cf1fdf95ebd2c312734cd83b6b3b
+%% GIT git_commit : 820e1dca78a9ee32e2a84f528a4059de9044bb96
 %% GIT git_repo_modified : True
 %% GIT git_branch : master
 %% GIT git_remote_url : git@github.com:kjetil-lye/phd_thesis_standalone_plots.git
-%% GIT git_short_commit : 8eaa
+%% GIT git_short_commit : 820e
 %% working_directory : /home/kjetil/projects/phd_thesis_standalone_plots/examples/uniqueness_young_measure
 %% hostname : galerkin
-%% generated_on_date : 2019-12-05 16:33:22.321375
+%% generated_on_date : 2019-12-05 16:55:52.740498
 %% accessed_environment:
 %% additional_parameters:
 %%    commandrun=/usr/bin/python3 /usr/lib/python3.8/site-packages/ipykernel_launcher.py -f /home/kjetil/.local/share/jupyter/runtime/kernel-f115e66c-5cd6-43ac-b045-c677d789db37.json
@@ -1151,7 +1153,7 @@ Hostname: galerkin};
 %% stacktrace:
 %%     [function: savePlot, line: 306, file: ../../python/plot_info.py]
 %%     [function: showAndSave, line: 340, file: ../../python/plot_info.py]
-%%     [function: <module>, line: 18, file: <ipython-input-10-11f1991adf51>]
+%%     [function: <module>, line: 32, file: <ipython-input-7-89bcfb2a42f4>]
 %%     [function: run_code, line: 3319, file: /usr/lib/python3.8/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3242, file: /usr/lib/python3.8/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_cell_async, line: 3050, file: /usr/lib/python3.8/site-packages/IPython/core/interactiveshell.py]
@@ -1166,6 +1168,10 @@ Hostname: galerkin};
 %%     [function: dispatch_shell, line: 268, file: /usr/lib/python3.8/site-packages/ipykernel/kernelbase.py]
 %%     [function: wrapper, line: 209, file: /usr/lib/python3.8/site-packages/tornado/gen.py]
 %%     [function: process_one, line: 361, file: /usr/lib/python3.8/site-packages/ipykernel/kernelbase.py]
+%%     [function: run, line: 748, file: /usr/lib/python3.8/site-packages/tornado/gen.py]
+%%     [function: __init__, line: 714, file: /usr/lib/python3.8/site-packages/tornado/gen.py]
+%%     [function: wrapper, line: 225, file: /usr/lib/python3.8/site-packages/tornado/gen.py]
+%%     [function: dispatch_queue, line: 377, file: /usr/lib/python3.8/site-packages/ipykernel/kernelbase.py]
 %%     [function: run, line: 748, file: /usr/lib/python3.8/site-packages/tornado/gen.py]
 %%     [function: inner, line: 787, file: /usr/lib/python3.8/site-packages/tornado/gen.py]
 %%     [function: _run_callback, line: 743, file: /usr/lib/python3.8/site-packages/tornado/ioloop.py]
